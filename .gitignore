@@ -1,0 +1,29 @@
+# Ignore the .env.local and .env.*.local files
+.env.local
+.env.*.local
+
+# Ignore log and cache files
+/var/log/*
+/var/cache/*
+
+# Ignore Symfony Flex's 'docker-compose.override.yaml' (unless you have a good reason to commit it)
+docker-compose.override.yaml
+
+# Ignore local settings
+/.idea
+
+# Ignore the 'vendor' directory
+/vendor
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore public build artifacts
+/public/build/
+/public/bundles/
+
+# Ignore test result cache
+/.phpunit.result.cache
+
+# Ignore DUALMEDIA.txt
+DUALMEDIA.txt
